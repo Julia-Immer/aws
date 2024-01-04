@@ -1,11 +1,11 @@
 import boto3
-import sys
+# import sys -- use later for args
 
 MAX_COUNT=1
 MIN_COUNT=1
 INSTANCE_TYPE='t2.micro'
 REGION='us-east-2'
-AMI=''
+AMI='ami-0931978297f275f71' # free RHEL ami
 
 # Create a default session
 # boto3 will use exported AWS_PROFILE variable and the credentials with that profile
